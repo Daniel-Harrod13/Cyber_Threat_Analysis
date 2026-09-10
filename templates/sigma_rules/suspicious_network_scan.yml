@@ -1,0 +1,26 @@
+title: Possible Network Service Scan
+id: 00000000-0000-0000-0000-000000000001
+status: experimental
+description: Detects repeated rejected connections from one source to multiple destinations or ports.
+author: Daniel Harrod
+date: 2025/01/15
+logsource:
+  product: zeek
+  service: conn
+detection:
+  selection:
+    conn_state: REJ
+  condition: selection
+fields:
+  - id_orig_h
+  - id_resp_h
+  - id_resp_p
+  - conn_state
+falsepositives:
+  - Vulnerability scanners
+  - Misconfigured applications
+  - Network monitoring tools
+level: medium
+tags:
+  - attack.discovery
+  - attack.t1046

@@ -1,0 +1,8 @@
+severity,source_ip,alert_type,description,mitre_attack,destination_ip,destination_port
+high,10.0.1.44,possible_port_or_service_scan,8 rejected connections across 8 destinations.,T1046 - Network Service Discovery,,
+medium,10.0.1.80,connection_to_uncommon_port,Connection to uncommon port 4444 with 90000 outbound bytes.,T1071 - Application Layer Protocol,192.0.2.99,4444.0
+medium,10.0.1.80,connection_to_uncommon_port,Connection to uncommon port 4444 with 88000 outbound bytes.,T1071 - Application Layer Protocol,192.0.2.99,4444.0
+medium,10.0.1.80,connection_to_uncommon_port,Connection to uncommon port 4444 with 91000 outbound bytes.,T1071 - Application Layer Protocol,192.0.2.99,4444.0
+medium,10.0.1.80,connection_to_uncommon_port,Connection to uncommon port 4444 with 89500 outbound bytes.,T1071 - Application Layer Protocol,192.0.2.99,4444.0
+medium,10.0.1.80,connection_to_uncommon_port,Connection to uncommon port 4444 with 90200 outbound bytes.,T1071 - Application Layer Protocol,192.0.2.99,4444.0
+high,10.0.1.80,possible_beaconing_or_data_exfiltration,Repeated high-byte connections: 5 connections averaging 89740 outbound bytes.,T1105 - Ingress Tool Transfer / C2-like behavior,192.0.2.99,4444.0

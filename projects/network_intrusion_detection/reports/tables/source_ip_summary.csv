@@ -1,0 +1,5 @@
+id_orig_h,total_connections,unique_destinations,unique_ports,rejected_connections,total_orig_bytes,total_resp_bytes
+10.0.1.44,8,8,2,8,480,0
+10.0.1.22,5,1,1,0,6000,49050
+10.0.1.80,5,1,1,0,448700,6075
+10.0.1.15,2,2,2,0,1050,5600
