@@ -1,0 +1,11 @@
+indicator,type,source,first_seen,notes
+185.199.108.153,ip,proxy_logs,2025-01-18,Repeated outbound HTTPS connections
+192.0.2.44,ip,email_gateway,2025-01-18,Documentation/test IP observed in suspicious attachment sandbox
+203.0.113.77,ip,firewall,2025-01-19,Blocked outbound connection from workstation VLAN
+malicious-login-support.com,domain,email_gateway,2025-01-19,Lookalike login domain from phishing email
+secure-payroll-update.net,domain,email_gateway,2025-01-19,Credential harvesting theme
+cdn-images.example.com,domain,proxy_logs,2025-01-20,Benign-looking CDN-style hostname
+http://malicious-login-support.com/login,url,email_gateway,2025-01-19,Phishing URL embedded in email
+http://secure-payroll-update.net/session,url,email_gateway,2025-01-19,Payroll lure URL
+44d88612fea8a8f36de82e1278abb02f,hash,edr,2025-01-20,Known EICAR-style test hash used as malware placeholder
+275a021bbfb6489e54d471899f7db9d1,hash,edr,2025-01-20,Unknown executable hash from downloads folder

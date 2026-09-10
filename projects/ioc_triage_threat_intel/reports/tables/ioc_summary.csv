@@ -1,0 +1,8 @@
+priority,type,size
+high,url,1
+low,domain,1
+low,hash,1
+low,ip,3
+medium,domain,2
+medium,hash,1
+medium,url,1

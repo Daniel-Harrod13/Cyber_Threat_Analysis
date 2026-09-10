@@ -35,7 +35,17 @@ Cyber_Threat_Analysis/
 └── docs/
 ```
 
-## Featured Project
+## Featured Projects
+
+### IOC Triage for Threat Intelligence
+
+A simple first project for a threat intelligence analyst. It normalizes sample indicators of compromise, applies transparent risk scoring, prioritizes IOCs, and generates an analyst-style intelligence brief.
+
+Project folder:
+
+```text
+projects/ioc_triage_threat_intel/
+```
 
 ### Network Intrusion Detection from Connection Logs
 
